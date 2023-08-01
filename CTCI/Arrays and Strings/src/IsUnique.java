@@ -1,4 +1,5 @@
 /*
+    Problem: implement an algorithm to determine if a string has only unique characters
     Solution: complete
     Tested: yes
     Time Complexity: O(n)
@@ -13,6 +14,11 @@
 public class IsUnique
 {
 
+
+    /**
+       @param s The ASCII string to be tested.
+       @return True if each character composing s only occurs once, false otherwise.
+     */
     public static boolean solution(String s){
         int vectorArray [] = {0,0,0,0}; // data structure to store the 'found once' status of each type of char (128 in ASCII)
         for (int i = 0; i < s.length(); i++)
