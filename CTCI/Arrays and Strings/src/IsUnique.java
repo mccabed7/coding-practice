@@ -16,6 +16,7 @@ public class IsUnique
 
 
     /**
+     * An algorithm to determine if a string has only unique characters
        @param s The ASCII string to be tested.
        @return True if each character composing s only occurs once, false otherwise.
      */
