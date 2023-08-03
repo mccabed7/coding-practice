@@ -14,6 +14,12 @@
 public class URLify
 {
 
+
+    /**
+     * An algorithm that replaces spaces in a string with "%20"
+     @param s The ASCII string to have its spaces swapped
+     @return A new copy of the String with its spaces swapped
+     */
     public static String solution(String s){
         StringBuilder builder = new StringBuilder();
         for (int i = 0; i < s.length(); i++)
