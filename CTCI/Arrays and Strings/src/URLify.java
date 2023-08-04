@@ -1,6 +1,6 @@
 /*
     Problem: implement an algorithm to replace the spaces in a string with "%20"
-    Solution: incomplete
+    Solution: complete
     Tested: yes
     Time Complexity: O(n)
     Space Complexity: O(n + c), where c is the amount of spaces in the string
