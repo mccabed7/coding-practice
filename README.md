@@ -4,6 +4,7 @@ There's also some mini projects too!
 ## Sections:
 ### Cracking the Coding Interview (CTCI)
 My own solutions to the problems from the famous book by Gayle Laakmann McDowell<br />
-Includes time and space complexity analysis, and also explanations to my solutions
+Includes time and space complexity analysis, and also explanations to my solutions<br />
+Solutions can be found in the "src" folders
 
 
