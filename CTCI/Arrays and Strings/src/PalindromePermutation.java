@@ -16,6 +16,6 @@ public class PalindromePermutation
 
     public static void main(String[] args)
     {
-        //test commit from laptop
+        // abcd
     }
 }
