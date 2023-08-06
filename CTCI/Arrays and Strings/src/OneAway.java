@@ -6,6 +6,8 @@
     Time Complexity:
     Space Complexity:
 
+    Explanation of implementation:
+
     Notes:
         +
         +
@@ -26,9 +28,12 @@ public class OneAway
         boolean foundReplace = false;
         for (int i = 0; i < s.length(); i++)
         {
-            // check add
-            // check remove
-            // check replace
+            if(s.charAt(i) != t.charAt(i)){
+                //check add
+
+                //check remove
+                //check replace
+            }
         }
         return true;
     }
