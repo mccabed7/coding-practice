@@ -12,7 +12,6 @@
  */
 
 
-
 public class RotateMatrix
 {
 
@@ -22,6 +21,8 @@ public class RotateMatrix
 
     public static void main(String[] args)
     {
+        int[][] matrix1 = {{1,1,1}, {1,1,1}, {1,1,1}};
+        MatrixTools.PrintMatrix(matrix1);
         System.out.println("Hello World!");
     }
 }
