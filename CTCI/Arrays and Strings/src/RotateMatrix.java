@@ -8,7 +8,8 @@
     Notes:
         + I've a much better understanding of how to work with matrices in java from this
         + Solution inspired by book, but I didn't consult the book during the writing of the code.
-
+        + Best explained by drawing out the matrix.
+        + It goes layer by layer, swapping the elements and offset 0, then 1, and so on  until the end of the layer.
  */
 
 
