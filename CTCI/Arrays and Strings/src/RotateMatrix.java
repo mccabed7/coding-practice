@@ -1,13 +1,13 @@
 /*
-    Problem: implement an algorithm that rotates a matrix 90 degrees clockwise
-    Solution: incomplete
-    Tested:
-    Time Complexity:
-    Space Complexity:
+    Problem: implement an algorithm that rotates a matrix 90 degrees
+    Solution: Complete
+    Tested: Yes
+    Time Complexity:  O(n^2) where n is the length of the top row of the matrix
+    Space Complexity: O(1), rotation done in-place
 
     Notes:
-        +
-        +
+        + I've a much better understanding of how to work with matrices in java from this
+        + Solution inspired by book, but I didn't consult the book during the writing of the code.
 
  */
 
@@ -15,6 +15,11 @@
 public class RotateMatrix
 {
 
+    /**
+     * An algorithm that rotates a square matrix 90 degrees
+     @param matrix The matrix to be rotated
+     @return True if the matrix can be rotated, false otherwise
+     */
     public static boolean solution(int[][] matrix){
         if(!MatrixTools.isSquare(matrix) || matrix.length == 0)  return false;
         for (int i = 0; i < matrix.length / 2; i++)
