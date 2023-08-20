@@ -1,6 +1,6 @@
 /*
     Problem:
-    Source: Amazon practice interview question
+    Source: Practice interview question
     Solution:
     Tested:
     Time Complexity:
