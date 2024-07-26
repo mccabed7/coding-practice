@@ -15,4 +15,13 @@ public class Node {
         }
         n.next = newNode;
     }
+
+    public void printList(){
+        Node n = this;
+        while (n != null) {
+            System.out.print(n.data + " ");
+            n = n.next;
+        }
+        System.out.println();
+    }
 }
