@@ -15,7 +15,10 @@
 
 public class DeletePtr {
 
-
+    /**
+     *  A function to delete a node in the list given a ptr to it only
+     @param node the node to be deleted
+     */
     static void Delete(Node node){
         Node n = node;
         if(n.next == null) {
